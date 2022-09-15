@@ -1,5 +1,5 @@
 # Natural-Language-Query-Search-Engine
-Description Of Project
+<h1>Description Of Project</h1>
 The user enters their query in natural human language. This query is converted to vector
 embedding and stored.
 The database we are using consists of collection of research papers. It has the title, abstract
@@ -12,6 +12,7 @@ Another facet of this project is every query we enter is stored in a separate pl
 convert these previously entered queries into vector embeddings. These are compared to
 the query user has entered at the present and those with top 5 similarity scores are
 displayed as a suggestion to the user.
+<br><br>
 Natural language search allows users to speak or type into a device using their everyday
 language rather than keywords. Users can use full sentences in their native language as if
 they are speaking to another human, leaving the computer to transform the query into
