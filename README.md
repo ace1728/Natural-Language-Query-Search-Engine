@@ -31,3 +31,16 @@ language searches.
 This is what we will extend as the scope of this project. To build a natural query search engine that
 fetches top five related research articles on the basis of similarity scores of the query with each
 article.
+<h3>Main Screen </h3>
+![image](https://user-images.githubusercontent.com/68285728/190363541-e3caa638-aac5-4fef-addb-022fd86a9a49.png)
+<h3>Enter queries</h3>
+![image](https://user-images.githubusercontent.com/68285728/190363728-ce300cd9-edd0-4c5d-82ba-097778ac8a91.png)
+The query result we hover on is light blue in color ,otherwise it is deep blue.
+There is index for each result, title, abstract and similarity score.
+In the right-hand side, we can see similar query suggestions.
+<br>
+![image](https://user-images.githubusercontent.com/68285728/190363865-5bc66986-1b9f-4043-b6c7-94c89a355a82.png)
+Here, we see the processing taking place as the model runs and fetches data from the api
+that we created using FastAPI.The terminal shows the query entered, similar queries with
+their respective similarity scores.
+
